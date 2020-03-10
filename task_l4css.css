@@ -1,14 +1,19 @@
-p.gulu{
-	
-	text-align:center;
-	margin:2cm;
-	border:2px dashed green;
-	padding:5px;
+div.sec1{
+	background-image:url("https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg");
+	padding:50px;
+	margin:0px 10px 10px 10px;
 }
-li.a{
-display:block;
+div.sec2{
+	background-color:white;
+	opacity:.5;
+	padding:20px;
 }
-a.b{
-display:block;
+
+#g{
+background-image:linear-gradient(to right,rgba(255,0,0,1),rgba(255,0,0,0));
+}
+#b{
+background-image:linear-gradient(to right,rgba(2,55,132,1),rgba(255,0,0,1));
+color:white;
 }
 
