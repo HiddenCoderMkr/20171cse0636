@@ -129,7 +129,37 @@ p::first-line{
 	color:red;
 	background:blue;
 }
-#grad{background-color:linear-gradient(red,yellow)}
+#grad{background-color:linear-gradient(red ,yellow)}
 
-
+div{	
+	width:500px;
+	height:250px;
+	background:red;
+	transition:width 2.5s, height 5s,transform 4s,font-size 5s, background 5s,box-shadow 4s;
+	font-size:25px;
+	border-radius:30px;
+	
+}
+div:hover{
+	width:550px;
+	height:320px;
+	background:lightblue;
+	font-size:30px;
+	border-radius:40px;
+	transform:rotate3d(1,-1,1, 350deg);
+	box-shadow: 100px 1px 10px #00f;
+}
+/*
+div{
+	width:500px;
+	height:250px;
+	background:white;
+	animation:try 5s infinite;
+	font-size:25px;
+}
+@keyframes try{
+	from{background:white;}
+	to{background:black;}
+	transform:rotate3d(1,-1,1,350deg);
+}
 
